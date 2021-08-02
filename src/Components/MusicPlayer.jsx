@@ -51,7 +51,7 @@ export default function MusicPlayer() {
             <div className="time">An hour left</div>
             <div className="play">
                 <div className="play-button">►</div>
-                <audio className="player" useRef={playerRef} src="/audio/thriller.mp3" autoPlay controls />
+                <audio className="player" useRef={playerRef} src="" autoPlay controls />
             </div>
         </Container>
     )
